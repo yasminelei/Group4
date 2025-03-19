@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/background.png');
+    background-size: 1300px 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Header */
+h1 {
+    color: darkred;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff6e6;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table Header */
+th {
+    background-color: #8B0000; /* Dark Red */
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #5c0000;
+}
+
+/* Table Cells */
+td {
+    padding: 10px;
+    border: 2px solid brown;
+    text-align: center;
+}
+
+/* Input Fields */
+input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid brown;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fffbf3;
+}
+
+/* Buttons */
+button {
+    background-color: darkred;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-container input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+
+.search-container button {
+    background-color: darkred;
+    padding: 8px 12px;
+    margin-left: 5px;
+}
+
+/* Sort Button */
+.sort-button {
+    background-color: darkred;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.sort-button:hover {
+    background-color: brown;
+}
+
+/* Back Button */
+.back-button {
+    background-color: darkgray;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: gray;
+}

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/background.png');
+    background-size: 1300px 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#form {
+    background: rgba(255, 255, 255, 0); 
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto 20px; /* Centers the logo and adds space below */
+    width: 175px; /* Adjust size as needed */
+    height: auto; /* Keeps aspect ratio */
+}
+
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 3px solid #a03737;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #777;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #600000;
+}
